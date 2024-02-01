@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  web:
+    image: bharath0812/java:12.0
+    ports:
+      - "80:80"
+    deploy:
+      mode: replicated
+      replicas: 3
+      
