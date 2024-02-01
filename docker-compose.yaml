@@ -6,6 +6,6 @@ services:
     ports:
       - "8081:8081"
     deploy:
-      mode: replicated
+      mode: global
       replicas: 3
       
