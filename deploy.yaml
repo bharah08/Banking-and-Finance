@@ -17,6 +17,8 @@ spec:
       containers:
       - name: webapp
         image: bharath0812/private:1.0
+      imagePullSecrets:
+      - name: regcred
         ports:
         - containerPort: 8081
 ---
